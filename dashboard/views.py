@@ -19,3 +19,7 @@ def index(request):
 	context = get_sidebar_context()
 	return my_render(request, 'index.html', context)
 	
+def login(request):
+	context = get_sidebar_context()
+	return my_render(request, 'login.html', context)
+	
